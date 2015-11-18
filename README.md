@@ -66,17 +66,17 @@ Huge version without GUI.  Features included (+) or not (-):
 
 +farsi           +mouse_netterm   +syntax
 
-   system vimrc file: "$VIM/vimrc"
+system vimrc file: "$VIM/vimrc"
 
-     user vimrc file: "$HOME/.vimrc"
+user vimrc file: "$HOME/.vimrc"
 
- 2nd user vimrc file: "~/.vim/vimrc"
+2nd user vimrc file: "~/.vim/vimrc"
 
-      user exrc file: "$HOME/.exrc"
+user exrc file: "$HOME/.exrc"
 
-  fall-back for $VIM: "/usr/share/vim"
+fall-back for $VIM: "/usr/share/vim"
 
- f-b for $VIMRUNTIME: "/usr/share/vim/vim74"
+f-b for $VIMRUNTIME: "/usr/share/vim/vim74"
 
 Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H   -I/usr/local/include  -g -O2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1
 
